@@ -1,0 +1,16 @@
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="braceletTitle">
+  <title id="braceletTitle">Handmade bracelet illustration</title>
+  <defs>
+    <linearGradient id="braceletGradient" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#d9b59a"/>
+      <stop offset="100%" stop-color="#a56a43"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="500" rx="60" ry="60" fill="#f7ede4"/>
+  <path d="M150 250a100 100 0 1 1 200 0 100 100 0 1 1 -200 0" fill="none" stroke="url(#braceletGradient)" stroke-width="24" stroke-linecap="round"/>
+  <circle cx="150" cy="250" r="16" fill="#a56a43"/>
+  <circle cx="200" cy="320" r="20" fill="#fff1eb"/>
+  <circle cx="310" cy="240" r="18" fill="#c4a082"/>
+  <circle cx="360" cy="280" r="14" fill="#f4dfd0"/>
+  <circle cx="250" cy="160" r="22" fill="#d9b59a"/>
+</svg>

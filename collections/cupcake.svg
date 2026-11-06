@@ -1,0 +1,13 @@
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="cupcakeTitle">
+  <title id="cupcakeTitle">Cupcake illustration</title>
+  <rect width="500" height="500" rx="60" ry="60" fill="#fff4ec"/>
+  <path d="M120 330c0 70 35 90 110 90s110-20 110-90" fill="#cb946f"/>
+  <path d="M120 330h220l-20-120c0-45-35-80-80-80s-80 35-80 80l-20 120z" fill="#f9d6c3"/>
+  <path d="M135 260c15-60 70-85 115-85s100 30 115 85" fill="#f6ebe4"/>
+  <path d="M180 210c8-15 20-25 35-25s27 10 35 25" fill="#d9b59a"/>
+  <circle cx="200" cy="230" r="10" fill="#a56a43"/>
+  <circle cx="250" cy="190" r="12" fill="#f8d1bf"/>
+  <circle cx="290" cy="245" r="9" fill="#b37d57"/>
+  <ellipse cx="150" cy="300" rx="12" ry="8" fill="#fff1eb"/>
+  <ellipse cx="340" cy="300" rx="12" ry="8" fill="#fff1eb"/>
+</svg>

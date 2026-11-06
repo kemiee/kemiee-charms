@@ -1,0 +1,18 @@
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="scrunchieTitle">
+  <title id="scrunchieTitle">Crocheted scrunchie illustration</title>
+  <defs>
+    <radialGradient id="scrunchieGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f5e4d8"/>
+      <stop offset="100%" stop-color="#b77d5f"/>
+    </radialGradient>
+  </defs>
+  <rect width="500" height="500" rx="60" ry="60" fill="#fff4ea"/>
+  <g transform="translate(250 250)">
+    <circle cx="0" cy="0" r="120" fill="url(#scrunchieGradient)"/>
+    <circle cx="0" cy="0" r="65" fill="#f8f1eb"/>
+    <path d="M-80 -40c30 -32 100 -20 120 0 15 14 20 40 16 60 -4 20 -18 34 -35 40" fill="none" stroke="#8a624c" stroke-width="18" stroke-linecap="round"/>
+    <path d="M-80 40c30 32 100 20 120 0 15 -14 20 -40 16 -60 -4 -20 -18 -34 -35 -40" fill="none" stroke="#8a624c" stroke-width="18" stroke-linecap="round"/>
+    <path d="M-80 -20c30 -20 70 -15 100 0" fill="none" stroke="#d9b59a" stroke-width="14" stroke-linecap="round"/>
+    <path d="M-80 20c30 20 70 15 100 0" fill="none" stroke="#d9b59a" stroke-width="14" stroke-linecap="round"/>
+  </g>
+</svg>
