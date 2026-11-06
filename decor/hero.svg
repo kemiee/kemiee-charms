@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="100%" height="100%" fill="#7f5539" />
+  <rect x="0" y="0" width="600" height="900" fill="#e9d7ca"/>
+  <g font-family="Playfair Display, serif" fill="#fff">
+    <text x="90" y="160" font-size="64">Kemiee Charms</text>
+    <text x="90" y="220" font-size="22">Handmade with Faith, Creativity &amp; Love</text>
+  </g>
+  <g fill="#f3e6dd">
+    <circle cx="1180" cy="420" r="120" fill="rgba(255,255,255,0.12)" />
+  </g>
+</svg>
