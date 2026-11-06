@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kemiee Charms | Handmade Gifts + Bakes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Allura&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="scroll-progress" aria-hidden="true">
+      <div class="scroll-progress__fill"></div>
+    </div>
+    <div class="page-loader">
+      <div class="loader-ring"></div>
+      <div class="loader-skeleton">
+        <div class="skeleton-card"></div>
+        <div class="skeleton-card"></div>
+        <div class="skeleton-card"></div>
+      </div>
+      <p>Loading boutique details…</p>
+    </div>
+
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="site-logo" href="#hero">
+          <span class="logo-mark">🤎</span>
+          <div>
+            <span>Kemiee Charms</span>
+            <p>Handmade with Love & Purpose</p>
+          </div>
+        </a>
+        <button class="nav-toggle" aria-controls="site-nav" aria-expanded="false" aria-label="Open navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="top-nav" id="site-nav">
+          <a href="#hero">Home</a>
+          <a href="#story">About</a>
+          <a href="#collections">Collections</a>
+          <a href="wishlist.html">Wishlist</a>
+          <a href="#custom">Custom Orders</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <div class="header-actions">
+          <button class="icon-btn cart-toggle" aria-label="Open cart">🛍️<span class="badge">0</span></button>
+          <a class="icon-btn wishlist-link" href="wishlist.html" aria-label="Open wishlist">🔖<span class="wishlist-badge">0</span></a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero-section reveal hero-fade-up" id="hero">
+        <div class="hero-media">
+          <video class="hero-video" id="hero-video" autoplay muted loop playsinline poster="images/hero.svg">
+            <source src="images/collections/hero-video.mp4.mp4" type="video/mp4" />
+            Your browser does not support video playback.
+          </video>
+          <button class="hero-play-btn" type="button" aria-label="Pause hero video">❚❚</button>
+          <div class="hero-overlay"></div>
+          <div class="hero-shapes" aria-hidden="true">
+            <span class="hero-shape hero-shape--1"></span>
+            <span class="hero-shape hero-shape--2"></span>
+            <span class="hero-shape hero-shape--3"></span>
+            <span class="hero-shape hero-shape--4"></span>
+          </div>
+        </div>
+        <div class="hero-copy">
+          <p class="eyebrow">Welcome to</p>
+          <h1>Kemiee Charms</h1>
+          <p class="hero-lead">Handmade with Faith, Creativity & Love</p>
+          <p class="hero-text">A cozy boutique story of bracelets, crochet accessories, and homemade treats crafted with warm hands and gentle care.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#collections">Shop Collections</a>
+            <a class="btn btn-secondary" href="#story">Our Story</a>
+          </div>
+        </div>
+        <div class="hero-scroll-indicator" aria-hidden="true">
+          <span>Scroll to Explore</span>
+          <div class="arrow"></div>
+        </div>
+      </section>
+
+      <section class="section-divider section-divider--wave" aria-hidden="true"></section>
+
+      <section class="faith-section reveal" id="faith">
+        <div class="faith-grid">
+          <div class="faith-copy">
+            <p class="eyebrow">Faith & creativity</p>
+            <h2>Faith fuels every creation.</h2>
+            <p>Gentle inspiration and prayerful purpose guide each handmade piece, from bracelets to baked gifts.</p>
+          </div>
+          <div class="faith-panel">
+            <div class="faith-card">
+              <p class="faith-verse">“For I know the plans I have for you... plans to give you hope and a future.”</p>
+              <span class="faith-ref">Jeremiah 29:11</span>
+            </div>
+            <div class="faith-banner">
+              <div class="faith-emblem">
+                <span>Faith Fuels My Creativity</span>
+              </div>
+              <div class="faith-quote">Delight yourself in the Lord, and He will give you the desires of your heart.</div>
+              <span class="faith-ref">Psalm 37:4</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-section reveal" id="story">
+        <div class="about-shell">
+          <div class="about-decor about-decor--heart">♡</div>
+          <div class="about-decor about-decor--sparkle">✦</div>
+          <div class="about-decor about-decor--leaf">❋</div>
+
+          <div class="about-visual">
+            <div class="about-image">
+              <div class="about-image__overlay">
+                <span class="about-image__badge">Dream. Create. Inspire.</span>
+                <p>Every creation begins with faith and a willing heart.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-copy">
+            <p class="eyebrow"><h3>About Kemiee Charms</h3></p>
+            <h2>The story of a young dreamer building something meaningful.</h2>
+
+            <div class="about-story">
+              <article class="about-story-block">
+                <h3>Where It All Began</h3>
+                <p>Kemiee Charms began as a quiet dream rooted in love, patience, and the desire to create something beautiful by hand.</p>
+              </article>
+
+              <article class="about-story-block">
+                <h3>Growing Through Challenges</h3>
+                <p>Every piece has carried lessons of resilience, faith, and courage, reminding us that growth often begins in small, tender steps.</p>
+              </article>
+
+              <article class="about-story-block">
+                <h3>Built on Faith</h3>
+                <p>Behind each bracelet, ribbon, and baked treat is a deeper purpose—hope, gratitude, and the confidence to keep creating.</p>
+              </article>
+
+              <article class="about-story-block">
+                <h3>More Than Handmade</h3>
+                <p>This brand is about connection. It is a space where beauty, comfort, and meaningful details meet in a heartfelt experience.</p>
+              </article>
+
+              <article class="about-story-block">
+                <h3>My Hope For You</h3>
+                <p>I hope every visitor feels seen, welcomed, and inspired to slow down and enjoy the little things that make life feel warm.</p>
+              </article>
+            </div>
+
+            <div class="about-quote">
+              Great things often begin with willing hands, a hopeful heart, and one small courageous step.
+            </div>
+
+            <div class="about-values">
+              <article class="about-value-card">
+                <span class="about-value-icon">🤎</span>
+                <h3>Handmade with Love</h3>
+                <p>Every creation is crafted carefully by hand.</p>
+              </article>
+              <article class="about-value-card">
+                <span class="about-value-icon">✨</span>
+                <h3>Creativity</h3>
+                <p>Inspired by imagination and passion.</p>
+              </article>
+              <article class="about-value-card">
+                <span class="about-value-icon">✝</span>
+                <h3>Faith</h3>
+                <p>Guided by hope and purpose.</p>
+              </article>
+              <article class="about-value-card">
+                <span class="about-value-icon">🌱</span>
+                <h3>Growth</h3>
+                <p>Growing one step at a time.</p>
+              </article>
+              <article class="about-value-card">
+                <span class="about-value-icon">😊</span>
+                <h3>Customer Joy</h3>
+                <p>Made to brighten someone's day.</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="collections-section reveal" id="collections">
+        <div class="section-intro section-intro--centered">
+          <p class="eyebrow"><h3>Collections</h3></div>p>
+          <h2>Curated pieces that feel soft, personal, and timeless.</h2>
+          <p class="section-copy">A carefully considered edit of handmade charm, cozy accessories, and sweet treats designed to bring warmth to every moment.</p>
+        </div>
+        <div class="collection-controls">
+          <div class="search-field">
+            <span>🔍</span>
+            <input id="collection-search" type="search" placeholder="Search collections" aria-label="Search collections" />
+          </div>
+          <div class="filter-group" id="collection-filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="bracelet">Bracelets</button>
+            <button class="filter-btn" data-filter="accessories">Accessories</button>
+            <button class="filter-btn" data-filter="bakes">Bakes</button>
+          </div>
+        </div>
+        <div class="collection-grid collection-grid--cards">
+          <article class="collection-card" data-category="bracelet">
+            <div class="collection-image collection-image--bracelet"></div>
+            <div class="collection-copy">
+              <p class="card-kicker">Signature Edit</p>
+              <h3>Handmade Bracelets</h3>
+              <p>Beautiful, unique bracelets made with quality beads and charms that feel personal and lasting.</p>
+              <a class="card-link" href="#">Explore Bracelets</a>
+            </div>
+          </article>
+          <article class="collection-card" data-category="accessories">
+            <div class="collection-image collection-image--scrunchie"></div>
+            <div class="collection-copy">
+              <p class="card-kicker">Soft Styling</p>
+              <h3>Crochet Hair Accessories</h3>
+              <p>Soft scrunchies, bows, and cozy hair pieces with a gentle, boutique finish.</p>
+              <a class="card-link" href="#">Shop Accessories</a>
+            </div>
+          </article>
+          <article class="collection-card" data-category="bakes">
+            <div class="collection-image collection-image--bakes"></div>
+            <div class="collection-copy">
+              <p class="card-kicker">Sweet Comfort</p>
+              <h3>Homemade Treats</h3>
+              <p>Delicious cupcakes, cookies, pies, and cakes baked with love and wrapped with care.</p>
+              <a class="card-link" href="#">Browse Treats</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="featured-section reveal" id="featured">
+        <div class="section-intro section-intro--centered">
+          <p class="eyebrow"><h3>Featured Products</h3></p>
+          <h2>Thoughtful favorites made to gift, wear, and treasure.</h2>
+          <p class="section-copy">A small edit of the most loved pieces, styled with the same warmth and intention as the full collection.</p>
+        </div>
+        <div class="product-controls">
+          <div class="search-field search-field--with-suggestions">
+            <span>🔍</span>
+            <input id="product-search" type="search" placeholder="Search products" aria-label="Search products" autocomplete="off" />
+            <div class="search-suggestions hidden" id="product-suggestions" role="listbox" aria-label="Product suggestions"></div>
+          </div>
+          <div class="filter-group" id="product-filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="bracelet">Bracelets</button>
+            <button class="filter-btn" data-filter="accessories">Accessories</button>
+            <button class="filter-btn" data-filter="bakes">Bakes</button>
+          </div>
+        </div>
+        <div class="product-grid">
+          <article class="product-card" data-category="bracelet" data-product="Signature Charm Bracelet" data-price="3000" data-description="A handcrafted charm bracelet with delicate details, perfect for layering or gifting." >
+            <div class="product-preview product-preview-bracelet">
+              <button class="icon-btn favorite-btn" type="button" aria-label="Add Signature Charm Bracelet to favorites">♡</button>
+              <button class="btn btn-small btn-ghost quick-view" type="button" aria-label="Quick view Signature Charm Bracelet">Quick View</button>
+            </div>
+            <div class="product-info">
+              <span class="product-badge">Best Seller</span>
+              <h3>Signature Charm Bracelet</h3>
+              <div class="rating-row">
+                <span class="rating-stars">★★★★★</span>
+                <span class="rating-count">124 reviews</span>
+              </div>
+              <p class="product-price">3000 Tsh</p>
+              <div class="product-meta">
+                <span class="stock-indicator in-stock">In stock</span>
+                <span class="review-score">4.9</span>
+              </div>
+              <div class="product-actions">
+                <button class="btn btn-secondary add-cart" type="button" data-product="Signature Charm Bracelet" data-price="3000">Add to Cart</button>
+                <button class="btn btn-ghost compare-btn" type="button" data-product="Signature Charm Bracelet">Compare</button>
+              </div>
+            </div>
+          </article>
+          <article class="product-card" data-category="accessories" data-product="Crochet Scrunchie Set" data-price="5000" data-description="Soft, handmade scrunchies in a curved set for every day and special styling occasions." >
+            <div class="product-preview product-preview-scrunchie">
+              <button class="icon-btn favorite-btn" type="button" aria-label="Add Crochet Scrunchie Set to favorites">♡</button>
+              <button class="btn btn-small btn-ghost quick-view" type="button" aria-label="Quick view Crochet Scrunchie Set">Quick View</button>
+            </div>
+            <div class="product-info">
+              <span class="product-badge">Soft Edit</span>
+              <h3>Crochet Scrunchie Set</h3>
+              <div class="rating-row">
+                <span class="rating-stars">★★★★★</span>
+                <span class="rating-count">98 reviews</span>
+              </div>
+              <p class="product-price">5000 Tsh</p>
+              <div class="product-meta">
+                <span class="stock-indicator nearly-sold">Low stock</span>
+                <span class="review-score">4.8</span>
+              </div>
+              <div class="product-actions">
+                <button class="btn btn-secondary add-cart" type="button" data-product="Crochet Scrunchie Set" data-price="5000">Add to Cart</button>
+                <button class="btn btn-ghost compare-btn" type="button" data-product="Crochet Scrunchie Set">Compare</button>
+              </div>
+            </div>
+          </article>
+          <article class="product-card" data-category="bakes" data-product="Cupcake Delight Pack" data-price="14990" data-description="A sweet assortment of cupcakes decorated for gifting, made fresh with premium ingredients." >
+            <div class="product-preview product-preview-bakes">
+              <button class="icon-btn favorite-btn" type="button" aria-label="Add Cupcake Delight Pack to favorites">♡</button>
+              <button class="btn btn-small btn-ghost quick-view" type="button" aria-label="Quick view Cupcake Delight Pack">Quick View</button>
+            </div>
+            <div class="product-info">
+              <span class="product-badge">New Arrival</span>
+              <h3>Cupcake Delight Pack</h3>
+              <div class="rating-row">
+                <span class="rating-stars">★★★★★</span>
+                <span class="rating-count">76 reviews</span>
+              </div>
+              <p class="product-price">14990 Tsh</p>
+              <div class="product-meta">
+                <span class="stock-indicator in-stock">Limited stock</span>
+                <span class="review-score">4.7</span>
+              </div>
+              <div class="product-actions">
+                <button class="btn btn-secondary add-cart" type="button" data-product="Cupcake Delight Pack" data-price="14990">Add to Cart</button>
+                <button class="btn btn-ghost compare-btn" type="button" data-product="Cupcake Delight Pack">Compare</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="recently-viewed-section reveal" id="recently-viewed">
+        <div class="section-intro section-intro--centered">
+          <p class="eyebrow">Recently Viewed</p>
+          <h2>Products you looked at most recently.</h2>
+          <p class="section-copy">A curated reminder of the items you explored, refreshed automatically as you browse.</p>
+        </div>
+        <div class="recently-viewed-grid" aria-live="polite"></div>
+      </section>
+
+      <section class="instagram-section reveal" id="instagram">
+        <div class="section-intro section-intro--centered">
+          <p class="eyebrow"><h3>Instagram</h3></p>
+          <h2>Behind the scenes and gift inspiration.</h2>
+          <p class="section-copy">Hover any tile and tap to open our Instagram, where packaging moments and boutique details come to life.</p>
+        </div>
+        <div class="instagram-grid">
+          <a class="insta-card" href="https://www.instagram.com" target="_blank" rel="noreferrer noopener" aria-label="Open Instagram post 1">
+            <div class="insta-overlay">View on Instagram</div>
+          </a>
+          <a class="insta-card" href="https://www.instagram.com" target="_blank" rel="noreferrer noopener" aria-label="Open Instagram post 2">
+            <div class="insta-overlay">View on Instagram</div>
+          </a>
+          <a class="insta-card" href="https://www.instagram.com" target="_blank" rel="noreferrer noopener" aria-label="Open Instagram post 3">
+            <div class="insta-overlay">View on Instagram</div>
+          </a>
+          <a class="insta-card" href="https://www.instagram.com" target="_blank" rel="noreferrer noopener" aria-label="Open Instagram post 4">
+            <div class="insta-overlay">View on Instagram</div>
+          </a>
+        </div>
+      </section>
+
+      <section class="packaging-section reveal" id="packaging">
+        <div class="section-intro section-intro--centered">
+          <p class="eyebrow"><h3>Beautiful Packaging</h3></p>
+          <h2>See how every order arrives.</h2>
+          <p class="section-copy">Every order is packaged with loving detail, from custom tissue to ribbon and gift-ready presentation.</p>
+        </div>
+        <div class="packaging-layout">
+          <div class="packaging-gallery">
+            <img src="https://images.openai.com/static-rsc-4/r9q1lvk89oZpDdpKzosSB8u5srr_Y6J3mMDG8BfvzvV383HFrxiMtUuwFStpSUu7yPLOKkyLa2MFSsCiB0oo7IL_JX7kcBxFs2SkyUUUU91uMPzCHd8bb4Ty88CP0NjRmr3IEJ_J3RbjUcfog1Fa4ck19UAyo7MOAtwOTICY6xey9RI-X_gfiwM0ar5sC_d8?purpose=inline" alt="Close-up of branded package" loading="lazy" />
+            <img src="https://images.openai.com/static-rsc-4/Z9a9y97rFeGpVLjGztwFU7qtdjN_ui1RnqAT4kroI5_kGEKzt6TnqvUR9v7JmrqoJNIuUHDy5-_Bs2W5-hYTKsl8xxWacqaJMG-TE4g2svp3CN0QCMqotZPAvySJTAMzaYYr-qP4jAfXrSgx5rXK-MQEhulsB_Fc6xZr27z6Uf1p7RgataxA8yl8-Dg783hC?purpose=inline" alt="Prepared gift box on a table" loading="lazy" />
+            <img src="https://images.openai.com/static-rsc-4/jUxCJKqJiX6_rzEwCJYHWw_vrSfy0ItiA7MZEMfN6L3FhC-JkMb5X9ldXd-UbNHkKURYFFder127jsOymW8oxiHyN0cC6jh4agdfzEp37HeGsJsDtRmkj3jBk01mGW5eTE6auuclyqnlS0lPQklsT5ahbekwZ4U5K4STscFY1azp_ZVZx0RTeEd0907DZGlK?purpose=inline" alt="Final packaging details" loading="lazy" />
+          </div>
+          <div class="packaging-details">
+            <div class="packaging-feature">
+              <h3>Gift-ready presentation</h3>
+              <p>Each order is finished so it looks beautiful the moment it arrives, with ribbon, tissue, and a soft-touch experience.</p>
+            </div>
+            <div class="packaging-feature">
+              <h3>Warm details included</h3>
+              <p>Personal notes, hand-tied bows, and thoughtful layering create an unboxing moment that feels special.</p>
+            </div>
+            <div class="packaging-feature">
+              <h3>Thoughtful materials</h3>
+              <p>We choose recyclable wrapping and premium finishing, so packaging feels luxe and considerate.</p>
+            </div>
+            <div class="packaging-feature">
+              <h3>Studio location</h3>
+              <p>Our boutique assembly happens locally, with an option to visit for pickup or collect a custom order in person.</p>
+            </div>
+            <div class="packaging-map">
+              <iframe src="https://www.google.com/maps?q=Dar+es+Salaam,+Tanzania&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" aria-label="Studio location map"></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="stats-section reveal" id="stats">
+        <div class="section-intro section-intro--centered">
+          <p class="eyebrow"><h3>Numbers That Matter</h3></p>
+          <h2>Meaningful milestones made visible.</h2>
+          <p class="section-copy">Luxury is in the details, and these numbers show the thoughtful scale of our boutique craft.</p>
+        </div>
+        <div class="stats-grid">
+          <article class="stat-card">
+            <span class="stat-value" data-target="500">0</span>
+            <p>Orders fulfilled</p>
+          </article>
+          <article class="stat-card">
+            <span class="stat-value" data-target="120">0</span>
+            <p>Unique designs</p>
+          </article>
+          <article class="stat-card">
+            <span class="stat-value" data-target="98">0</span>
+            <p>5-star reviews</p>
+          </article>
+          <article class="stat-card">
+            <span class="stat-value" data-target="45">0</span>
+            <p>Weekly deliveries</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="review-section reveal" id="reviews">
+        <div class="section-intro section-intro--centered">
+          <p class="eyebrow"><h3>Reviews</h3></p>
+          <h2>What customers love about the boutique</h2>
+        </div>
+        <div class="review-carousel">
+          <button class="carousel-nav carousel-nav--prev" aria-label="Previous review">‹</button>
+          <div class="review-track">
+            <article class="review-slide active" data-index="0">
+              <p>"The bracelet feels so special and the packaging was dreamy. Every detail made me smile."</p>
+              <span>— Amina, Dar es Salaam</span>
+            </article>
+            <article class="review-slide" data-index="1">
+              <p>"I ordered a custom gift and the team responded quickly with thoughtful suggestions. Beautiful craftmanship."</p>
+              <span>— Zainab, Arusha</span>
+            </article>
+            <article class="review-slide" data-index="2">
+              <p>"The treats arrived warm and wrapped like a boutique discovery. Perfect for a loved one."</p>
+              <span>— Mariam, Mwanza</span>
+            </article>
+          </div>
+          <button class="carousel-nav carousel-nav--next" aria-label="Next review">›</button>
+        </div>
+        <div class="carousel-dots">
+          <button class="dot active" data-index="0" aria-label="Review 1"></button>
+          <button class="dot" data-index="1" aria-label="Review 2"></button>
+          <button class="dot" data-index="2" aria-label="Review 3"></button>
+        </div>
+      </section>
+
+      <section class="custom-section reveal" id="custom">
+        <div class="custom-panel">
+          <div class="custom-copy">
+            <p class="eyebrow"><h3>Want Something Custom?</h3></p>
+            <h2>We'd love to create something special just for you.</h2>
+            <p>Share your ideas and we’ll bring them to life with warm details, creative care, and joyful packaging.</p>
+            <a class="btn btn-secondary btn-outline" href="#custom">Request Custom Order</a>
+          </div>
+          <p class="success-message" role="status" aria-live="polite"></p>
+          <form id="order-form" class="custom-form custom-form-wide">
+            <div class="form-row">
+              <input id="order-name" name="name" type="text" placeholder="Your Name" required />
+              <input id="order-email" name="email" type="email" placeholder="Email Address" required />
+            </div>
+            <input id="order-subject" name="subject" type="text" placeholder="What are you looking for?" required />
+            <textarea id="order-message" name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button class="btn btn-primary" type="submit">Send Request</button>
+            <p class="order-form-status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+
+      <section class="contact-section reveal" id="contact">
+        <div class="section-intro section-intro--centered">
+          <p class="eyebrow"><h3>Contact</h3></p>
+          <h2>Let’s create something beautiful together.</h2>
+          <p class="section-copy">Need help with a custom order, gift idea, or event styling? Reach out and we’ll respond with thoughtful service and warm attention.</p>
+        </div>
+        <div class="contact-grid">
+          <article class="contact-card">
+            <p class="card-kicker">Message the studio</p>
+            <h3>Reach our creative team</h3>
+            <p>Send your custom request and we’ll follow up within one business day with a personal planning note.</p>
+            <a class="card-link" href="mailto:shop@kemieecharms.com">shop@kemieecharms.com</a>
+          </article>
+          <article class="contact-card contact-card--social">
+            <p class="card-kicker">Stay inspired</p>
+            <h3>Follow our story</h3>
+            <p>Discover behind-the-scenes craft moments, warm packaging inspiration, and the newest seasonal drops.</p>
+            <div class="social-links">
+              <a href="#" aria-label="Instagram">Instagram</a>
+              <a href="#" aria-label="Facebook">Facebook</a>
+              <a href="#" aria-label="TikTok">TikTok</a>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <div class="checkout-panel hidden" id="checkout-panel" aria-label="Shopping cart">
+      <div class="checkout-header">
+        <h3>Your Cart</h3>
+        <button class="close-cart" aria-label="Close cart">×</button>
+      </div>
+      <div class="checkout-body">
+        <div class="checkout-items"></div>
+        <div class="checkout-summary">
+          <div class="checkout-line">
+            <span>Subtotal</span>
+            <span class="checkout-subtotal">0</span>Tsh
+          </div>
+          <div class="checkout-line">
+            <span>Shipping</span>
+            <span class="checkout-shipping">500</span>Tsh
+          </div>
+          <div class="checkout-line">
+            <span>Delivery</span>
+            <span class="checkout-delivery">0</span>Tsh
+          </div>
+          <div class="checkout-line">
+            <span>Gift wrap</span>
+            <span class="checkout-giftwrap">0</span>Tsh
+          </div>
+          <div class="checkout-line checkout-grand-total">
+            <strong>Total</strong>
+            <strong class="checkout-total">0</strong>Tsh
+          </div>
+          <div class="checkout-controls">
+            <div class="checkout-control">
+              <label for="coupon-code">Coupon</label>
+              <input id="coupon-code" type="text" placeholder="Enter code" />
+              <button class="btn btn-secondary apply-coupon" type="button">Apply</button>
+            </div>
+            <div class="checkout-control">
+              <label for="delivery-option">Delivery</label>
+              <select id="delivery-option">
+                <option value="standard">Standard</option>
+                <option value="express">Express +500</option>
+              </select>
+            </div>
+            <div class="checkout-control checkout-gift-wrap-control">
+              <label>
+                <input id="gift-wrap" type="checkbox" /> Gift wrap +1500
+              </label>
+            </div>
+            <div class="checkout-control">
+              <label for="order-notes">Notes</label>
+              <textarea id="order-notes" placeholder="Add a delivery note or special request"></textarea>
+            </div>
+          </div>
+          <button class="btn btn-primary btn-checkout" type="button">Proceed to Checkout</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-lightbox hidden" id="video-lightbox" role="dialog" aria-modal="true" aria-label="Studio video preview">
+      <div class="lightbox-backdrop"></div>
+      <div class="lightbox-inner">
+        <button class="lightbox-close" aria-label="Close video">×</button>
+        <div class="video-wrapper">
+          <video id="hero-video" controls playsinline preload="metadata" poster="images/hero.svg">
+            <source src="images/collections/hero-video.mp4" type="video/mp4" />
+            Your browser does not support video playback.
+          </video>
+        </div>
+      </div>
+    </div>
+
+    <div class="product-quickview hidden" id="quick-view-modal" role="dialog" aria-modal="true" aria-label="Product quick view">
+      <div class="quickview-backdrop"></div>
+      <div class="quickview-inner">
+        <button class="quickview-close" aria-label="Close quick view">×</button>
+        <div class="quickview-grid">
+          <div class="quickview-image"></div>
+          <div class="quickview-content">
+            <span class="quickview-badge"></span>
+            <h2 class="quickview-title"></h2>
+            <div class="quickview-rating">
+              <span class="quickview-stars">★★★★★</span>
+              <span class="quickview-review-count"></span>
+            </div>
+            <p class="quickview-price"></p>
+            <p class="quickview-description"></p>
+            <div class="quickview-actions">
+              <button class="btn btn-primary quickview-add-to-cart" type="button">Add to Cart</button>
+              <button class="btn btn-secondary quickview-favorite" type="button">Save</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="compare-panel hidden" id="compare-panel" aria-live="polite">
+      <div class="compare-panel-inner">
+        <div>
+          <span class="compare-title">Compare</span>
+          <p class="compare-summary">Select up to 3 items to compare features and pricing.</p>
+        </div>
+        <div class="compare-items"></div>
+        <button class="btn btn-secondary clear-compare" type="button">Clear</button>
+      </div>
+    </div>
+    <button class="back-to-top" aria-label="Back to top">↑</button>
+    <a class="whatsapp-float" href="https://wa.me/255123456789" target="_blank" rel="noreferrer noopener" aria-label="Chat on WhatsApp">WhatsApp</a>
+    <footer class="site-footer">
+      <div class="footer-grid">
+        <div class="footer-brand-block">
+          <p class="footer-logo">Kemiee Charms ♡</p>
+          <p class="footer-note">Handmade with Love & Purpose.</p>
+          <div class="footer-trust">
+            <span>Handcrafted Quality</span>
+            <span>Secure Service</span>
+          </div>
+        </div>
+        <div class="footer-links-block">
+          <p class="footer-label">Quick Links</p>
+          <a href="#hero">Home</a>
+          <a href="#story">About</a>
+          <a href="#collections">Collections</a>
+          <a href="#custom">Custom Orders</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-hours-block">
+          <p class="footer-label">Studio Hours</p>
+          <p>Mon - Sat: 8:30am – 9:00pm</p>
+          <p>Sun: by request</p>
+          <p class="footer-copy">Thoughtful craft, curated service, and beautiful details.</p>
+        </div>
+        <div class="footer-newsletter">
+          <p class="footer-label">Stay in the Circle</p>
+          <p>Receive launch notes, seasonal collections, and handcrafted inspiration.</p>
+          <form id="footer-newsletter-form" class="footer-newsletter-form" action="#" method="post">
+            <input id="newsletter-email" name="email" type="email" placeholder="Email address" aria-label="Email address" required />
+            <button class="icon-btn arrow-btn" type="submit" aria-label="Subscribe">→</button>
+          </form>
+          <p class="newsletter-status" aria-live="polite"></p>
+          <div class="payment-icons" aria-label="Payment methods">
+            <span class="payment-badge">Visa</span>
+            <span class="payment-badge">Mastercard</span>
+            <span class="payment-badge">MobilePay</span>
+          </div>
+          <div class="trust-badges">
+            <span>Luxury Craft</span>
+            <span>Thoughtful Packaging</span>
+          </div>
+        </div>
+      </div>
+      <p class="footer-bottom">© 2026 Kemiee Charms · Crafted with care</p>
+    </footer>
+
+    <div class="custom-cursor" aria-hidden="true"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-EsK08TVpF0yKwudqBYN7D3fxuZLWknU0slq1BfaJH1cYwb+21pOEiocqHizf7Y+GDQdFJgHxf69QAsjVxxt2rQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script src="scripts.js"></script>
+  </body>
+</html>

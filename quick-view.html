@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quick View</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="product-quickview hidden" id="quick-view-modal" role="dialog" aria-modal="true" aria-label="Product quick view">
+      <div class="quickview-backdrop"></div>
+      <div class="quickview-inner">
+        <button class="quickview-close" aria-label="Close quick view">×</button>
+        <div class="quickview-grid">
+          <div class="quickview-image"></div>
+          <div class="quickview-content">
+            <span class="quickview-badge"></span>
+            <h2 class="quickview-title"></h2>
+            <div class="quickview-rating">
+              <span class="quickview-stars">★★★★★</span>
+              <span class="quickview-review-count"></span>
+            </div>
+            <p class="quickview-price"></p>
+            <p class="quickview-description"></p>
+            <div class="quickview-actions">
+              <button class="btn btn-primary quickview-add-to-cart" type="button">Add to Cart</button>
+              <button class="btn btn-secondary quickview-favorite" type="button">Save</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
